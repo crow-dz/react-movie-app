@@ -6,13 +6,6 @@ import MovieCard from './MovieCard';
 //1e303ad6
 
 const API_URL = "http://www.omdbapi.com?apikey=1e303ad6";
-const movie1 = {
-    "Title": "Batman Forever",
-    "Year": "1995",
-    "imdbID": "tt0112462",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNDdjYmFiYWEtYzBhZS00YTZkLWFlODgtY2I5MDE0NzZmMDljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
-};
 const App = () =>{
     const [movies, setMovies] = useState([]);
     const [searchWord,setSearchWord] = useState();
